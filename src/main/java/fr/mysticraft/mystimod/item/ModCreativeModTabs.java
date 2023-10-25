@@ -26,6 +26,7 @@ public class ModCreativeModTabs {
 
 
                         pOutput.accept(ModBlocks.MYSTIQUARTZ_ORE.get());
+                        pOutput.accept(ModBlocks.MYSTIQUARTZ_BLOCK.get());
                     })
                     .build());
 

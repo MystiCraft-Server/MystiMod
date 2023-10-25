@@ -139,30 +139,38 @@ Writing Output: /Users/gabriel/Documents/MystiMod/build/reobfJar/output.jar
   assets/
   assets/mystimod/
   assets/mystimod/blockstates/
+  assets/mystimod/blockstates/mystiquartz_block.json
   assets/mystimod/blockstates/mystiquartz_ore.json
   assets/mystimod/lang/
   assets/mystimod/lang/en_us.json
   assets/mystimod/models/
   assets/mystimod/models/block/
+  assets/mystimod/models/block/mystiquartz_block.json
   assets/mystimod/models/block/mystiquartz_ore.json
   assets/mystimod/models/item/
   assets/mystimod/models/item/diamond_nugget.json
+  assets/mystimod/models/item/mystiquartz.json
+  assets/mystimod/models/item/mystiquartz_block.json
   assets/mystimod/models/item/mystiquartz_ore.json
   assets/mystimod/models/item/obsidian_stick.json
   assets/mystimod/models/item/rocket_wand.json
   assets/mystimod/textures/
   assets/mystimod/textures/block/
+  assets/mystimod/textures/block/mystiquartz_block.png
   assets/mystimod/textures/block/mystiquartz_ore.png
   assets/mystimod/textures/item/
   assets/mystimod/textures/item/Gui_crafting_table.png
   assets/mystimod/textures/item/diamond_nugget.png
-  assets/mystimod/textures/item/mystic item.png
+  assets/mystimod/textures/item/mystiquartz.png
   assets/mystimod/textures/item/obsidian_stick.png
   assets/mystimod/textures/item/rocket_wand.png
   data/
   data/mystimod/
   data/mystimod/recipes/
   data/mystimod/recipes/diamond_nugget_craft.json
+  data/mystimod/recipes/mystiquartz_block_craft.json
+  data/mystimod/recipes/mystiquartz_recipe.json
+  data/mystimod/recipes/mystiquartz_recipe_two.json
   data/mystimod/recipes/obsidian_stick_craft.json
   data/mystimod/recipes/rocket_wand_craft.json
   fr/
