@@ -4,7 +4,6 @@ import fr.mysticraft.mystimod.MystiMod;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -21,6 +20,7 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.OBSIDIAN_STICK.get());
                         pOutput.accept(ModItems.DIAMOND_NUGGET.get());
+                        pOutput.accept(ModItems.ROCKET_WAND.get());
 
                     })
                     .build());
