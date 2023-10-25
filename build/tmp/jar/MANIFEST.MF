@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: mystimod
+Specification-Vendor: GabLilTray
+Specification-Version: 1
+Implementation-Title: MystiMod
+Implementation-Version: 1.0.0
+Implementation-Vendor: GabLilTray
+Implementation-Timestamp: 2023-10-25T16:41:52+0200
+
