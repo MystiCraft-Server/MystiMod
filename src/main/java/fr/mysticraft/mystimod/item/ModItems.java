@@ -1,7 +1,7 @@
-package fr.mysticraft.mystimod.items;
+package fr.mysticraft.mystimod.item;
 
 import fr.mysticraft.mystimod.MystiMod;
-import fr.mysticraft.mystimod.items.customItems.RocketWandItem;
+import fr.mysticraft.mystimod.item.customItems.RocketWandItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -16,6 +16,9 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> DIAMOND_NUGGET = ITEMS.register("diamond_nugget",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> MYSTIQUARTZ = ITEMS.register("mystiquartz",
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> ROCKET_WAND = ITEMS.register("rocket_wand",

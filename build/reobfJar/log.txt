@@ -127,7 +127,9 @@ Adding Libraries to Inheritance
 Reading Input: /Users/gabriel/Documents/MystiMod/build/libs/mystimod-1.0.0.jar
 Adding input to inheritance map
 Processing entries
+Conflicting propagated mapping for fr/mysticraft/mystimod/item/customItems/RocketWandItem/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
 Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
+Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
 Adding extras
 Sorting
 Writing Output: /Users/gabriel/Documents/MystiMod/build/reobfJar/output.jar
@@ -136,28 +138,43 @@ Writing Output: /Users/gabriel/Documents/MystiMod/build/reobfJar/output.jar
   META-INF/mods.toml
   assets/
   assets/mystimod/
+  assets/mystimod/blockstates/
+  assets/mystimod/blockstates/mystiquartz_ore.json
   assets/mystimod/lang/
   assets/mystimod/lang/en_us.json
   assets/mystimod/models/
+  assets/mystimod/models/block/
+  assets/mystimod/models/block/mystiquartz_ore.json
   assets/mystimod/models/item/
   assets/mystimod/models/item/diamond_nugget.json
+  assets/mystimod/models/item/mystiquartz_ore.json
   assets/mystimod/models/item/obsidian_stick.json
+  assets/mystimod/models/item/rocket_wand.json
   assets/mystimod/textures/
+  assets/mystimod/textures/block/
+  assets/mystimod/textures/block/mystiquartz_ore.png
   assets/mystimod/textures/item/
   assets/mystimod/textures/item/Gui_crafting_table.png
   assets/mystimod/textures/item/diamond_nugget.png
+  assets/mystimod/textures/item/mystic item.png
   assets/mystimod/textures/item/obsidian_stick.png
+  assets/mystimod/textures/item/rocket_wand.png
   data/
   data/mystimod/
   data/mystimod/recipes/
   data/mystimod/recipes/diamond_nugget_craft.json
   data/mystimod/recipes/obsidian_stick_craft.json
+  data/mystimod/recipes/rocket_wand_craft.json
   fr/
   fr/mysticraft/
   fr/mysticraft/mystimod/
   fr/mysticraft/mystimod/MystiMod$ClientModEvents.class
   fr/mysticraft/mystimod/MystiMod.class
-  fr/mysticraft/mystimod/items/
-  fr/mysticraft/mystimod/items/ModCreativeModTabs.class
-  fr/mysticraft/mystimod/items/ModItems.class
+  fr/mysticraft/mystimod/block/
+  fr/mysticraft/mystimod/block/ModBlocks.class
+  fr/mysticraft/mystimod/item/
+  fr/mysticraft/mystimod/item/ModCreativeModTabs.class
+  fr/mysticraft/mystimod/item/ModItems.class
+  fr/mysticraft/mystimod/item/customItems/
+  fr/mysticraft/mystimod/item/customItems/RocketWandItem.class
   pack.mcmeta

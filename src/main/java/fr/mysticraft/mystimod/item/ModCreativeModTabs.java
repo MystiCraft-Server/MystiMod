@@ -1,6 +1,7 @@
-package fr.mysticraft.mystimod.items;
+package fr.mysticraft.mystimod.item;
 
 import fr.mysticraft.mystimod.MystiMod;
+import fr.mysticraft.mystimod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,7 +22,10 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.OBSIDIAN_STICK.get());
                         pOutput.accept(ModItems.DIAMOND_NUGGET.get());
                         pOutput.accept(ModItems.ROCKET_WAND.get());
+                        pOutput.accept(ModItems.MYSTIQUARTZ.get());
 
+
+                        pOutput.accept(ModBlocks.MYSTIQUARTZ_ORE.get());
                     })
                     .build());
 
