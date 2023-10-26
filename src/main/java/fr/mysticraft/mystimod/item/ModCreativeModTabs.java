@@ -24,6 +24,9 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.ROCKET_WAND.get());
                         pOutput.accept(ModItems.MYSTIQUARTZ.get());
                         pOutput.accept(ModItems.DIAMOND_APPLE.get());
+                        pOutput.accept(ModItems.MYSTIQUARTZ_SWORD.get());
+                        pOutput.accept(ModItems.MYSTIQUARTZ_PICKAXE.get());
+
 
 
                         pOutput.accept(ModBlocks.MYSTIQUARTZ_ORE.get());

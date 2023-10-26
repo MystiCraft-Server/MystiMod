@@ -4,6 +4,8 @@ import fr.mysticraft.mystimod.MystiMod;
 import fr.mysticraft.mystimod.item.customItems.ModFood;
 import fr.mysticraft.mystimod.item.customItems.RocketWandItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.Tiers;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -24,6 +26,14 @@ public class ModItems {
 
     public static final RegistryObject<Item> DIAMOND_APPLE = ITEMS.register("diamond_apple",
             () -> new Item(new Item.Properties().food(ModFood.DIAMOND_APPLE)));
+
+    public static final RegistryObject<Item> MYSTIQUARTZ_SWORD = ITEMS.register("mystiquartz_sword",
+            () -> new SwordItem(ModToolTiers.MYSTIQUARTZ, 4, 2,
+                    new Item.Properties()));
+
+    public static final RegistryObject<Item> MYSTIQUARTZ_PICKAXE = ITEMS.register("mystiquartz_pickaxe",
+            () -> new SwordItem(Tiers.NETHERITE, 1, 1,
+                    new Item.Properties()));
 
     public static final RegistryObject<Item> ROCKET_WAND = ITEMS.register("rocket_wand",
             () -> new RocketWandItem(new Item.Properties().defaultDurability(5)));

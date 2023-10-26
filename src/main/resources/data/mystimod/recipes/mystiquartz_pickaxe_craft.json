@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "mystimod:mystiquartz"
+    },
+    "S": {
+      "item": "mystimod:obsidian_stick"
+    }
+  },
+  "result": {
+    "item": "mystimod:mystiquartz_pickaxe",
+    "count": 1
+  }
+}

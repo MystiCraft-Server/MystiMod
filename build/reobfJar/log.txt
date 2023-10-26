@@ -128,6 +128,12 @@ Reading Input: /Users/gabriel/Documents/MystiMod/build/libs/mystimod-1.0.0.jar
 Adding input to inheritance map
 Processing entries
 Conflicting propagated mapping for fr/mysticraft/mystimod/item/customItems/RocketWandItem/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
 Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
 Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
 Adding extras
@@ -153,6 +159,8 @@ Writing Output: /Users/gabriel/Documents/MystiMod/build/reobfJar/output.jar
   assets/mystimod/models/item/mystiquartz.json
   assets/mystimod/models/item/mystiquartz_block.json
   assets/mystimod/models/item/mystiquartz_ore.json
+  assets/mystimod/models/item/mystiquartz_pickaxe.json
+  assets/mystimod/models/item/mystiquartz_sword.json
   assets/mystimod/models/item/obsidian_stick.json
   assets/mystimod/models/item/rocket_wand.json
   assets/mystimod/textures/
@@ -164,9 +172,10 @@ Writing Output: /Users/gabriel/Documents/MystiMod/build/reobfJar/output.jar
   assets/mystimod/textures/item/diamond_apple.png
   assets/mystimod/textures/item/diamond_nugget.png
   assets/mystimod/textures/item/mystiquartz.png
+  assets/mystimod/textures/item/mystiquartz_pickaxe.png
+  assets/mystimod/textures/item/mystiquartz_sword.png
   assets/mystimod/textures/item/obsidian_stick.png
   assets/mystimod/textures/item/rocket_wand.png
-  assets/mystimod/textures/item/sword of mystic.png
   data/
   data/minecraft/
   data/minecraft/tags/
@@ -187,8 +196,10 @@ Writing Output: /Users/gabriel/Documents/MystiMod/build/reobfJar/output.jar
   data/mystimod/recipes/diamond_apple_craft.json
   data/mystimod/recipes/diamond_nugget_craft.json
   data/mystimod/recipes/mystiquartz_block_craft.json
+  data/mystimod/recipes/mystiquartz_pickaxe_craft.json
   data/mystimod/recipes/mystiquartz_recipe.json
   data/mystimod/recipes/mystiquartz_recipe_two.json
+  data/mystimod/recipes/mystiquartz_sword_craft.json
   data/mystimod/recipes/obsidian_stick_craft.json
   data/mystimod/recipes/rocket_wand_craft.json
   data/mystimod/worldgen/
@@ -208,7 +219,12 @@ Writing Output: /Users/gabriel/Documents/MystiMod/build/reobfJar/output.jar
   fr/mysticraft/mystimod/item/
   fr/mysticraft/mystimod/item/ModCreativeModTabs.class
   fr/mysticraft/mystimod/item/ModItems.class
+  fr/mysticraft/mystimod/item/ModToolTiers.class
   fr/mysticraft/mystimod/item/customItems/
   fr/mysticraft/mystimod/item/customItems/ModFood.class
   fr/mysticraft/mystimod/item/customItems/RocketWandItem.class
+  fr/mysticraft/mystimod/util/
+  fr/mysticraft/mystimod/util/ModTags$Blocks.class
+  fr/mysticraft/mystimod/util/ModTags$Items.class
+  fr/mysticraft/mystimod/util/ModTags.class
   pack.mcmeta
