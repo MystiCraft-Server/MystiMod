@@ -168,10 +168,21 @@ Writing Output: /Users/gabriel/Documents/MystiMod/build/reobfJar/output.jar
   assets/mystimod/textures/item/rocket_wand.png
   assets/mystimod/textures/item/sword of mystic.png
   data/
+  data/minecraft/
+  data/minecraft/tags/
+  data/minecraft/tags/blocks/
+  data/minecraft/tags/blocks/mineable/
+  data/minecraft/tags/blocks/mineable/pickaxe.json
+  data/minecraft/tags/blocks/needs_diamond_tool.json
+  data/minecraft/tags/blocks/needs_iron_tool.json
   data/mystimod/
   data/mystimod/forge/
   data/mystimod/forge/biome_modifier/
   data/mystimod/forge/biome_modifier/overworld_mystiquartz_ore.json
+  data/mystimod/loot_tables/
+  data/mystimod/loot_tables/blocks/
+  data/mystimod/loot_tables/blocks/mystiquartz_block.json
+  data/mystimod/loot_tables/blocks/mystiquartz_ore.json
   data/mystimod/recipes/
   data/mystimod/recipes/diamond_apple_craft.json
   data/mystimod/recipes/diamond_nugget_craft.json
@@ -192,6 +203,8 @@ Writing Output: /Users/gabriel/Documents/MystiMod/build/reobfJar/output.jar
   fr/mysticraft/mystimod/MystiMod.class
   fr/mysticraft/mystimod/block/
   fr/mysticraft/mystimod/block/ModBlocks.class
+  fr/mysticraft/mystimod/block/customBlocks/
+  fr/mysticraft/mystimod/block/customBlocks/MystiQuartzBlock.class
   fr/mysticraft/mystimod/item/
   fr/mysticraft/mystimod/item/ModCreativeModTabs.class
   fr/mysticraft/mystimod/item/ModItems.class

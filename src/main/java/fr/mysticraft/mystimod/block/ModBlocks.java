@@ -1,12 +1,17 @@
 package fr.mysticraft.mystimod.block;
 
 import fr.mysticraft.mystimod.MystiMod;
+import fr.mysticraft.mystimod.block.customBlocks.MystiQuartzBlock;
 import fr.mysticraft.mystimod.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
+import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -20,7 +25,7 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, MystiMod.MOD_ID);
 
     public static final RegistryObject<Block> MYSTIQUARTZ_ORE = registerBlock("mystiquartz_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE)));
+            () -> new MystiQuartzBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE)));
     public static final RegistryObject<Block> MYSTIQUARTZ_BLOCK = registerBlock("mystiquartz_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK)));
 
