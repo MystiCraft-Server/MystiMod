@@ -4,6 +4,7 @@ import fr.mysticraft.mystimod.MystiMod;
 import fr.mysticraft.mystimod.item.customItems.ModFood;
 import fr.mysticraft.mystimod.item.customItems.RocketWandItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Tiers;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -32,7 +33,7 @@ public class ModItems {
                     new Item.Properties()));
 
     public static final RegistryObject<Item> MYSTIQUARTZ_PICKAXE = ITEMS.register("mystiquartz_pickaxe",
-            () -> new SwordItem(Tiers.NETHERITE, 1, 1,
+            () -> new PickaxeItem(ModToolTiers.MYSTIQUARTZ, 4, 2,
                     new Item.Properties()));
 
     public static final RegistryObject<Item> ROCKET_WAND = ITEMS.register("rocket_wand",

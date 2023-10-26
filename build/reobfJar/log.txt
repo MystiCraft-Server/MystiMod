@@ -168,13 +168,13 @@ Writing Output: /Users/gabriel/Documents/MystiMod/build/reobfJar/output.jar
   assets/mystimod/textures/block/mystiquartz_block.png
   assets/mystimod/textures/block/mystiquartz_ore.png
   assets/mystimod/textures/item/
-  assets/mystimod/textures/item/Gui_crafting_table.png
   assets/mystimod/textures/item/diamond_apple.png
   assets/mystimod/textures/item/diamond_nugget.png
   assets/mystimod/textures/item/mystiquartz.png
   assets/mystimod/textures/item/mystiquartz_pickaxe.png
   assets/mystimod/textures/item/mystiquartz_sword.png
   assets/mystimod/textures/item/obsidian_stick.png
+  assets/mystimod/textures/item/pickaxe en mysti quartz.png
   assets/mystimod/textures/item/rocket_wand.png
   data/
   data/minecraft/
