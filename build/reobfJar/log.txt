@@ -141,6 +141,9 @@ Writing Output: /Users/gabriel/Documents/MystiMod/build/reobfJar/output.jar
   assets/mystimod/blockstates/
   assets/mystimod/blockstates/mystiquartz_block.json
   assets/mystimod/blockstates/mystiquartz_ore.json
+  assets/mystimod/forge/
+  assets/mystimod/forge/biome_modifier/
+  assets/mystimod/forge/biome_modifier/overworld_mystiquartz_ore.json
   assets/mystimod/lang/
   assets/mystimod/lang/en_us.json
   assets/mystimod/models/
@@ -164,6 +167,11 @@ Writing Output: /Users/gabriel/Documents/MystiMod/build/reobfJar/output.jar
   assets/mystimod/textures/item/mystiquartz.png
   assets/mystimod/textures/item/obsidian_stick.png
   assets/mystimod/textures/item/rocket_wand.png
+  assets/mystimod/worldgen/
+  assets/mystimod/worldgen/configured_feature/
+  assets/mystimod/worldgen/configured_feature/overworld_mystiquartz_ore.json
+  assets/mystimod/worldgen/placed_feature/
+  assets/mystimod/worldgen/placed_feature/overworld_mystiquartz_ore.json
   data/
   data/mystimod/
   data/mystimod/recipes/
