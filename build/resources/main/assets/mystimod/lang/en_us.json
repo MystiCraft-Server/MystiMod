@@ -2,6 +2,11 @@
   "item.mystimod.obsidian_stick": "Obsidian Stick",
   "item.mystimod.diamond_nugget": "Diamond Nugget",
   "item.mystimod.rocket_wand": "Rocket Wand",
+  "item.mystimod.mystiquartz": "MystiQuartz",
+  "item.mystimod.diamond_apple": "Diamond Apple",
+
+  "block.mystimod.mystiquartz_ore": "MystiQuartz Ore",
+  "block.mystimod.mystiquartz_block": "MystiQuartz Block",
 
 
   "creativetab.mysti_tab": "MystiMod"
