@@ -1,6 +1,7 @@
 package fr.mysticraft.mystimod.item;
 
 import fr.mysticraft.mystimod.MystiMod;
+import fr.mysticraft.mystimod.item.customItems.ModFood;
 import fr.mysticraft.mystimod.item.customItems.RocketWandItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -20,6 +21,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> MYSTIQUARTZ = ITEMS.register("mystiquartz",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> DIAMOND_APPLE = ITEMS.register("diamond_apple",
+            () -> new Item(new Item.Properties().food(ModFood.DIAMOND_APPLE)));
 
     public static final RegistryObject<Item> ROCKET_WAND = ITEMS.register("rocket_wand",
             () -> new RocketWandItem(new Item.Properties().defaultDurability(5)));

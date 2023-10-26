@@ -151,6 +151,7 @@ Writing Output: /Users/gabriel/Documents/MystiMod/build/reobfJar/output.jar
   assets/mystimod/models/block/mystiquartz_block.json
   assets/mystimod/models/block/mystiquartz_ore.json
   assets/mystimod/models/item/
+  assets/mystimod/models/item/diamond_apple.json
   assets/mystimod/models/item/diamond_nugget.json
   assets/mystimod/models/item/mystiquartz.json
   assets/mystimod/models/item/mystiquartz_block.json
@@ -163,6 +164,7 @@ Writing Output: /Users/gabriel/Documents/MystiMod/build/reobfJar/output.jar
   assets/mystimod/textures/block/mystiquartz_ore.png
   assets/mystimod/textures/item/
   assets/mystimod/textures/item/Gui_crafting_table.png
+  assets/mystimod/textures/item/diamond_apple.png
   assets/mystimod/textures/item/diamond_nugget.png
   assets/mystimod/textures/item/mystiquartz.png
   assets/mystimod/textures/item/obsidian_stick.png
@@ -175,6 +177,7 @@ Writing Output: /Users/gabriel/Documents/MystiMod/build/reobfJar/output.jar
   data/
   data/mystimod/
   data/mystimod/recipes/
+  data/mystimod/recipes/diamond_apple_craft.json
   data/mystimod/recipes/diamond_nugget_craft.json
   data/mystimod/recipes/mystiquartz_block_craft.json
   data/mystimod/recipes/mystiquartz_recipe.json
@@ -192,5 +195,6 @@ Writing Output: /Users/gabriel/Documents/MystiMod/build/reobfJar/output.jar
   fr/mysticraft/mystimod/item/ModCreativeModTabs.class
   fr/mysticraft/mystimod/item/ModItems.class
   fr/mysticraft/mystimod/item/customItems/
+  fr/mysticraft/mystimod/item/customItems/ModFood.class
   fr/mysticraft/mystimod/item/customItems/RocketWandItem.class
   pack.mcmeta
