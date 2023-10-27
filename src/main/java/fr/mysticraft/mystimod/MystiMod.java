@@ -2,9 +2,12 @@ package fr.mysticraft.mystimod;
 
 import com.mojang.logging.LogUtils;
 import fr.mysticraft.mystimod.block.ModBlocks;
+import fr.mysticraft.mystimod.entity.ModEntities;
+import fr.mysticraft.mystimod.entity.client.RhinoRenderer;
 import fr.mysticraft.mystimod.item.ModCreativeModTabs;
 import fr.mysticraft.mystimod.item.ModItems;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -30,6 +33,8 @@ public class MystiMod
         ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModEntities.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
@@ -63,9 +68,7 @@ public class MystiMod
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-            // Some client setup code
-            LOGGER.info("HELLO FROM CLIENT SETUP");
-            LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+            EntityRenderers.register(ModEntities.RHINO.get(), RhinoRenderer::new);
         }
     }
 }

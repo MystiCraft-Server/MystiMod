@@ -1,4 +1,4 @@
-// 1.20.1	2023-10-27T15:17:25.703152	Item Models: mystimod
+// 1.20.1	2023-10-27T21:52:10.373448777	Item Models: mystimod
 058b85987c93e492a22f9ae4f8de8140ca7410e7 assets/mystimod/models/item/diamond_apple.json
 a1ee77fa3c6d35e09d5e97d54d21ed560f50129c assets/mystimod/models/item/diamond_nugget.json
 084f874cb99066fa475fb1489b662cfdffbbc98c assets/mystimod/models/item/mystiquartz.json
@@ -49,4 +49,6 @@ c7008964cf14723a5a8958ad873403d9c12332ab assets/mystimod/models/item/mystiquartz
 08046615cce15a12d51b85caa5ad6a28ec98a125 assets/mystimod/models/item/mystiquartz_pickaxe.json
 aa74a54df3b87f45dce7f9e417b61e24e6411449 assets/mystimod/models/item/mystiquartz_sword.json
 04f79a74c89e154d87e7b325e36f79600ab25c25 assets/mystimod/models/item/obsidian_stick.json
+63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/mystimod/models/item/rhino_spawn_egg.json
+f039e259938f29035039a42c62c4438c56f2ba7d assets/mystimod/models/item/rhino_thing.json
 1e49a4f89cf6e31dd9d1455ea6670f9737ddf148 assets/mystimod/models/item/rocket_wand.json

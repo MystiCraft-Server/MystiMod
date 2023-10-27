@@ -44,6 +44,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.DIAMOND_NUGGET);
         simpleItem(ModItems.OBSIDIAN_STICK);
         simpleItem(ModItems.ROCKET_WAND);
+        simpleItem(ModItems.RHINO_THING);
 
         simpleItem(ModItems.MYSTIQUARTZ);
 
@@ -54,6 +55,8 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleItem(ModItems.MYSTIQUARTZ_SWORD);
         simpleItem(ModItems.MYSTIQUARTZ_PICKAXE);
+
+        withExistingParent(ModItems.RHINO_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
 
     }
 

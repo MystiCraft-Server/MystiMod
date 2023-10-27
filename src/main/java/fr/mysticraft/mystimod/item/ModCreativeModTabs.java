@@ -24,6 +24,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.ROCKET_WAND.get());
                         pOutput.accept(ModItems.MYSTIQUARTZ.get());
                         pOutput.accept(ModItems.DIAMOND_APPLE.get());
+                        pOutput.accept(ModItems.RHINO_SPAWN_EGG.get());
 
 
                         pOutput.accept(ModItems.MYSTIQUARTZ_SWORD.get());

@@ -1,9 +1,11 @@
 package fr.mysticraft.mystimod.item;
 
 import fr.mysticraft.mystimod.MystiMod;
+import fr.mysticraft.mystimod.entity.ModEntities;
 import fr.mysticraft.mystimod.item.customItems.ModFood;
 import fr.mysticraft.mystimod.item.customItems.RocketWandItem;
 import net.minecraft.world.item.*;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -18,6 +20,13 @@ public class ModItems {
 
     public static final RegistryObject<Item> DIAMOND_NUGGET = ITEMS.register("diamond_nugget",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> RHINO_THING = ITEMS.register("rhino_thing",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> RHINO_SPAWN_EGG = ITEMS.register("rhino_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.RHINO, 0x7e9680, 0xc5d1c5, new Item.Properties()));
+
 
     public static final RegistryObject<Item> MYSTIQUARTZ = ITEMS.register("mystiquartz",
             () -> new Item(new Item.Properties()));

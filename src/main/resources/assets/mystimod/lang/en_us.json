@@ -4,6 +4,8 @@
   "item.mystimod.rocket_wand": "Rocket Wand",
   "item.mystimod.mystiquartz": "MystiQuartz",
   "item.mystimod.diamond_apple": "Diamond Apple",
+  "item.mystimod.rhino_spawn_egg": "Spawn Rhinoceros",
+  "item.mystimod.rhino_thing": "Rhinoceros Horn",
 
 
 
@@ -21,6 +23,11 @@
 
   "block.mystimod.mystiquartz_ore": "MystiQuartz Ore",
   "block.mystimod.mystiquartz_block": "MystiQuartz Block",
+
+
+
+  "entity.mystimod.rhino": "Rhinoceros",
+
 
 
   "creativetab.mysti_tab": "MystiMod"
