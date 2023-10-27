@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "pattern": [
+    "   ",
+    " M ",
+    " M "
+  ],
+  "result": {
+    "item": "mystimod:obsidian_stick"
+  },
+  "show_notification": true
+}

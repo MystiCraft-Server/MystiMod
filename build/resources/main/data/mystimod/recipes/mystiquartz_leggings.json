@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "mystimod:mystiquartz"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "M M",
+    "M M"
+  ],
+  "result": {
+    "item": "mystimod:mystiquartz_leggings"
+  },
+  "show_notification": true
+}

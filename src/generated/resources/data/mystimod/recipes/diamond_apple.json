@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:golden_apple"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "M": {
+      "item": "mystimod:diamond_nugget"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "DAD",
+    "MMM"
+  ],
+  "result": {
+    "item": "mystimod:diamond_apple"
+  },
+  "show_notification": true
+}

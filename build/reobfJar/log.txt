@@ -127,20 +127,43 @@ Adding Libraries to Inheritance
 Reading Input: /Users/gabriel/Documents/MystiMod/build/libs/mystimod-1.0.0.jar
 Adding input to inheritance map
 Processing entries
-Conflicting propagated mapping for fr/mysticraft/mystimod/item/customItems/RocketWandItem/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for fr/mysticraft/mystimod/item/ModArmorMaterials/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
+Conflicting propagated mapping for fr/mysticraft/mystimod/item/ModArmorMaterials/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
+Conflicting propagated mapping for fr/mysticraft/mystimod/item/ModArmorMaterials/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
+Conflicting propagated mapping for fr/mysticraft/mystimod/item/ModArmorMaterials/getToughness()F from net/minecraft/world/item/ArmorMaterial/getToughness()F: getToughness -> m_6651_
+Conflicting propagated mapping for fr/mysticraft/mystimod/item/ModArmorMaterials/getName()Ljava/lang/String; from net/minecraft/world/item/ArmorMaterial/getName()Ljava/lang/String;: getName -> m_6082_
+Conflicting propagated mapping for fr/mysticraft/mystimod/item/ModArmorMaterials/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
+Conflicting propagated mapping for fr/mysticraft/mystimod/item/ModArmorMaterials/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
+Conflicting propagated mapping for fr/mysticraft/mystimod/item/ModArmorMaterials/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
 Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
 Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
 Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
 Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
 Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
 Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for fr/mysticraft/mystimod/item/customItems/RocketWandItem/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
 Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
+Conflicting propagated mapping for net/minecraftforge/client/model/generators/ModelProvider/run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture; from net/minecraft/data/DataProvider/run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture;: run -> m_213708_
+Conflicting propagated mapping for net/minecraftforge/client/model/generators/ItemModelProvider/getName()Ljava/lang/String; from net/minecraft/data/DataProvider/getName()Ljava/lang/String;: getName -> m_6055_
+Conflicting propagated mapping for fr/mysticraft/mystimod/datagen/ModRecipieProvider/buildRecipes(Ljava/util/function/Consumer;)V from net/minecraft/data/recipes/RecipeProvider/buildRecipes(Ljava/util/function/Consumer;)V: buildRecipes -> m_245200_
+Conflicting propagated mapping for fr/mysticraft/mystimod/datagen/loot/ModBlockLootTables/generate()V from net/minecraft/data/loot/BlockLootSubProvider/generate()V: generate -> m_245660_
 Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
+Conflicting propagated mapping for fr/mysticraft/mystimod/datagen/ModBlockTagGenerator/addTags(Lnet/minecraft/core/HolderLookup$Provider;)V from net/minecraft/data/tags/TagsProvider/addTags(Lnet/minecraft/core/HolderLookup$Provider;)V: addTags -> m_6577_
+Conflicting propagated mapping for net/minecraftforge/client/model/generators/BlockStateProvider/run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture; from net/minecraft/data/DataProvider/run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture;: run -> m_213708_
+Conflicting propagated mapping for fr/mysticraft/mystimod/datagen/ModItemTagGenerator/addTags(Lnet/minecraft/core/HolderLookup$Provider;)V from net/minecraft/data/tags/TagsProvider/addTags(Lnet/minecraft/core/HolderLookup$Provider;)V: addTags -> m_6577_
+Conflicting propagated mapping for net/minecraftforge/client/model/generators/BlockStateProvider/getName()Ljava/lang/String; from net/minecraft/data/DataProvider/getName()Ljava/lang/String;: getName -> m_6055_
 Adding extras
 Sorting
 Writing Output: /Users/gabriel/Documents/MystiMod/build/reobfJar/output.jar
   META-INF/
   META-INF/MANIFEST.MF
+  .cache/
+  .cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d
+  .cache/647fd7fd540126eaa382a0b3857123156184d0cf
+  .cache/8159656db89f59bf0bea4d708e0aabf0ff78b2fe
+  .cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e
+  .cache/d306278c5bb0e4a51932903e836d405c58e954b0
+  .cache/de67d7d5b510859c60f7d6c4aa3d957ef4323a85
   META-INF/mods.toml
   assets/
   assets/mystimod/
@@ -158,6 +181,50 @@ Writing Output: /Users/gabriel/Documents/MystiMod/build/reobfJar/output.jar
   assets/mystimod/models/item/diamond_nugget.json
   assets/mystimod/models/item/mystiquartz.json
   assets/mystimod/models/item/mystiquartz_block.json
+  assets/mystimod/models/item/mystiquartz_boots.json
+  assets/mystimod/models/item/mystiquartz_boots_amethyst_trim.json
+  assets/mystimod/models/item/mystiquartz_boots_copper_trim.json
+  assets/mystimod/models/item/mystiquartz_boots_diamond_trim.json
+  assets/mystimod/models/item/mystiquartz_boots_emerald_trim.json
+  assets/mystimod/models/item/mystiquartz_boots_gold_trim.json
+  assets/mystimod/models/item/mystiquartz_boots_iron_trim.json
+  assets/mystimod/models/item/mystiquartz_boots_lapis_trim.json
+  assets/mystimod/models/item/mystiquartz_boots_netherite_trim.json
+  assets/mystimod/models/item/mystiquartz_boots_quartz_trim.json
+  assets/mystimod/models/item/mystiquartz_boots_redstone_trim.json
+  assets/mystimod/models/item/mystiquartz_chestplate.json
+  assets/mystimod/models/item/mystiquartz_chestplate_amethyst_trim.json
+  assets/mystimod/models/item/mystiquartz_chestplate_copper_trim.json
+  assets/mystimod/models/item/mystiquartz_chestplate_diamond_trim.json
+  assets/mystimod/models/item/mystiquartz_chestplate_emerald_trim.json
+  assets/mystimod/models/item/mystiquartz_chestplate_gold_trim.json
+  assets/mystimod/models/item/mystiquartz_chestplate_iron_trim.json
+  assets/mystimod/models/item/mystiquartz_chestplate_lapis_trim.json
+  assets/mystimod/models/item/mystiquartz_chestplate_netherite_trim.json
+  assets/mystimod/models/item/mystiquartz_chestplate_quartz_trim.json
+  assets/mystimod/models/item/mystiquartz_chestplate_redstone_trim.json
+  assets/mystimod/models/item/mystiquartz_helmet.json
+  assets/mystimod/models/item/mystiquartz_helmet_amethyst_trim.json
+  assets/mystimod/models/item/mystiquartz_helmet_copper_trim.json
+  assets/mystimod/models/item/mystiquartz_helmet_diamond_trim.json
+  assets/mystimod/models/item/mystiquartz_helmet_emerald_trim.json
+  assets/mystimod/models/item/mystiquartz_helmet_gold_trim.json
+  assets/mystimod/models/item/mystiquartz_helmet_iron_trim.json
+  assets/mystimod/models/item/mystiquartz_helmet_lapis_trim.json
+  assets/mystimod/models/item/mystiquartz_helmet_netherite_trim.json
+  assets/mystimod/models/item/mystiquartz_helmet_quartz_trim.json
+  assets/mystimod/models/item/mystiquartz_helmet_redstone_trim.json
+  assets/mystimod/models/item/mystiquartz_leggings.json
+  assets/mystimod/models/item/mystiquartz_leggings_amethyst_trim.json
+  assets/mystimod/models/item/mystiquartz_leggings_copper_trim.json
+  assets/mystimod/models/item/mystiquartz_leggings_diamond_trim.json
+  assets/mystimod/models/item/mystiquartz_leggings_emerald_trim.json
+  assets/mystimod/models/item/mystiquartz_leggings_gold_trim.json
+  assets/mystimod/models/item/mystiquartz_leggings_iron_trim.json
+  assets/mystimod/models/item/mystiquartz_leggings_lapis_trim.json
+  assets/mystimod/models/item/mystiquartz_leggings_netherite_trim.json
+  assets/mystimod/models/item/mystiquartz_leggings_quartz_trim.json
+  assets/mystimod/models/item/mystiquartz_leggings_redstone_trim.json
   assets/mystimod/models/item/mystiquartz_ore.json
   assets/mystimod/models/item/mystiquartz_pickaxe.json
   assets/mystimod/models/item/mystiquartz_sword.json
@@ -171,11 +238,19 @@ Writing Output: /Users/gabriel/Documents/MystiMod/build/reobfJar/output.jar
   assets/mystimod/textures/item/diamond_apple.png
   assets/mystimod/textures/item/diamond_nugget.png
   assets/mystimod/textures/item/mystiquartz.png
+  assets/mystimod/textures/item/mystiquartz_boots.png
+  assets/mystimod/textures/item/mystiquartz_chestplate.png
+  assets/mystimod/textures/item/mystiquartz_helmet.png
+  assets/mystimod/textures/item/mystiquartz_leggings.png
   assets/mystimod/textures/item/mystiquartz_pickaxe.png
   assets/mystimod/textures/item/mystiquartz_sword.png
   assets/mystimod/textures/item/obsidian_stick.png
   assets/mystimod/textures/item/pickaxe en mysti quartz.png
   assets/mystimod/textures/item/rocket_wand.png
+  assets/mystimod/textures/models/
+  assets/mystimod/textures/models/armor/
+  assets/mystimod/textures/models/armor/mystiquartz_layer_1.png
+  assets/mystimod/textures/models/armor/mystiquartz_layer_2.png
   data/
   data/minecraft/
   data/minecraft/tags/
@@ -183,8 +258,24 @@ Writing Output: /Users/gabriel/Documents/MystiMod/build/reobfJar/output.jar
   data/minecraft/tags/blocks/mineable/
   data/minecraft/tags/blocks/mineable/pickaxe.json
   data/minecraft/tags/blocks/needs_diamond_tool.json
-  data/minecraft/tags/blocks/needs_iron_tool.json
+  data/minecraft/tags/items/
+  data/minecraft/tags/items/trimmable_armor.json
   data/mystimod/
+  data/mystimod/advancements/
+  data/mystimod/advancements/recipes/
+  data/mystimod/advancements/recipes/misc/
+  data/mystimod/advancements/recipes/misc/diamond_apple.json
+  data/mystimod/advancements/recipes/misc/diamond_nugget.json
+  data/mystimod/advancements/recipes/misc/mystiquartz.json
+  data/mystimod/advancements/recipes/misc/mystiquartz_block.json
+  data/mystimod/advancements/recipes/misc/mystiquartz_boots.json
+  data/mystimod/advancements/recipes/misc/mystiquartz_chestplate.json
+  data/mystimod/advancements/recipes/misc/mystiquartz_helmet.json
+  data/mystimod/advancements/recipes/misc/mystiquartz_leggings.json
+  data/mystimod/advancements/recipes/misc/mystiquartz_pickaxe.json
+  data/mystimod/advancements/recipes/misc/mystiquartz_sword.json
+  data/mystimod/advancements/recipes/misc/obsidian_stick.json
+  data/mystimod/advancements/recipes/misc/rocket_wand.json
   data/mystimod/forge/
   data/mystimod/forge/biome_modifier/
   data/mystimod/forge/biome_modifier/overworld_mystiquartz_ore.json
@@ -193,15 +284,19 @@ Writing Output: /Users/gabriel/Documents/MystiMod/build/reobfJar/output.jar
   data/mystimod/loot_tables/blocks/mystiquartz_block.json
   data/mystimod/loot_tables/blocks/mystiquartz_ore.json
   data/mystimod/recipes/
-  data/mystimod/recipes/diamond_apple_craft.json
-  data/mystimod/recipes/diamond_nugget_craft.json
-  data/mystimod/recipes/mystiquartz_block_craft.json
-  data/mystimod/recipes/mystiquartz_pickaxe_craft.json
+  data/mystimod/recipes/diamond_apple.json
+  data/mystimod/recipes/diamond_nugget.json
+  data/mystimod/recipes/mystiquartz.json
+  data/mystimod/recipes/mystiquartz_block.json
+  data/mystimod/recipes/mystiquartz_boots.json
+  data/mystimod/recipes/mystiquartz_chestplate.json
+  data/mystimod/recipes/mystiquartz_helmet.json
+  data/mystimod/recipes/mystiquartz_leggings.json
+  data/mystimod/recipes/mystiquartz_pickaxe.json
   data/mystimod/recipes/mystiquartz_recipe.json
-  data/mystimod/recipes/mystiquartz_recipe_two.json
-  data/mystimod/recipes/mystiquartz_sword_craft.json
-  data/mystimod/recipes/obsidian_stick_craft.json
-  data/mystimod/recipes/rocket_wand_craft.json
+  data/mystimod/recipes/mystiquartz_sword.json
+  data/mystimod/recipes/obsidian_stick.json
+  data/mystimod/recipes/rocket_wand.json
   data/mystimod/worldgen/
   data/mystimod/worldgen/configured_feature/
   data/mystimod/worldgen/configured_feature/overworld_mystiquartz_ore.json
@@ -216,7 +311,19 @@ Writing Output: /Users/gabriel/Documents/MystiMod/build/reobfJar/output.jar
   fr/mysticraft/mystimod/block/ModBlocks.class
   fr/mysticraft/mystimod/block/customBlocks/
   fr/mysticraft/mystimod/block/customBlocks/MystiQuartzBlock.class
+  fr/mysticraft/mystimod/datagen/
+  fr/mysticraft/mystimod/datagen/DataGenerators.class
+  fr/mysticraft/mystimod/datagen/ModBlockStateProvider.class
+  fr/mysticraft/mystimod/datagen/ModBlockTagGenerator.class
+  fr/mysticraft/mystimod/datagen/ModItemModelProvider$1.class
+  fr/mysticraft/mystimod/datagen/ModItemModelProvider.class
+  fr/mysticraft/mystimod/datagen/ModItemTagGenerator.class
+  fr/mysticraft/mystimod/datagen/ModLootTableProvider.class
+  fr/mysticraft/mystimod/datagen/ModRecipieProvider.class
+  fr/mysticraft/mystimod/datagen/loot/
+  fr/mysticraft/mystimod/datagen/loot/ModBlockLootTables.class
   fr/mysticraft/mystimod/item/
+  fr/mysticraft/mystimod/item/ModArmorMaterials.class
   fr/mysticraft/mystimod/item/ModCreativeModTabs.class
   fr/mysticraft/mystimod/item/ModItems.class
   fr/mysticraft/mystimod/item/ModToolTiers.class

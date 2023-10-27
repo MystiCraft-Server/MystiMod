@@ -423,5 +423,35 @@
     },
     "done": true
   },
+  "mystimod:recipes/misc/mystiquartz": {
+    "criteria": {
+      "has_mystiquartz_block": "2023-10-27 14:33:49 +0200"
+    },
+    "done": true
+  },
+  "mystimod:recipes/misc/rocket_wand": {
+    "criteria": {
+      "has_obsidian_stick": "2023-10-27 15:08:43 +0200"
+    },
+    "done": true
+  },
+  "mystimod:recipes/misc/mystiquartz_pickaxe": {
+    "criteria": {
+      "has_obsidian_stick": "2023-10-27 15:08:43 +0200"
+    },
+    "done": true
+  },
+  "mystimod:recipes/misc/mystiquartz_sword": {
+    "criteria": {
+      "has_obsidian_stick": "2023-10-27 15:08:43 +0200"
+    },
+    "done": true
+  },
+  "mystimod:recipes/misc/diamond_apple": {
+    "criteria": {
+      "has_diamond_nugget": "2023-10-27 15:08:43 +0200"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

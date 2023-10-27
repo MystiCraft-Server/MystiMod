@@ -3,10 +3,7 @@ package fr.mysticraft.mystimod.item;
 import fr.mysticraft.mystimod.MystiMod;
 import fr.mysticraft.mystimod.item.customItems.ModFood;
 import fr.mysticraft.mystimod.item.customItems.RocketWandItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.PickaxeItem;
-import net.minecraft.world.item.SwordItem;
-import net.minecraft.world.item.Tiers;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -34,6 +31,19 @@ public class ModItems {
 
     public static final RegistryObject<Item> MYSTIQUARTZ_PICKAXE = ITEMS.register("mystiquartz_pickaxe",
             () -> new PickaxeItem(ModToolTiers.MYSTIQUARTZ, 4, 2,
+                    new Item.Properties()));
+
+    public static final RegistryObject<Item> MYSTIQUARTZ_HELMET = ITEMS.register("mystiquartz_helmet",
+            () -> new ArmorItem(ModArmorMaterials.MYSTIQUARTZ, ArmorItem.Type.HELMET,
+                    new Item.Properties()));
+    public static final RegistryObject<Item> MYSTIQUARTZ_CHESTPLATE = ITEMS.register("mystiquartz_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.MYSTIQUARTZ, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties()));
+    public static final RegistryObject<Item> MYSTIQUARTZ_LEGGINGS = ITEMS.register("mystiquartz_leggings",
+            () -> new ArmorItem(ModArmorMaterials.MYSTIQUARTZ, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties()));
+    public static final RegistryObject<Item> MYSTIQUARTZ_BOOTS = ITEMS.register("mystiquartz_boots",
+            () -> new ArmorItem(ModArmorMaterials.MYSTIQUARTZ, ArmorItem.Type.BOOTS,
                     new Item.Properties()));
 
     public static final RegistryObject<Item> ROCKET_WAND = ITEMS.register("rocket_wand",
