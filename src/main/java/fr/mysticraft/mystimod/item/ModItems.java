@@ -3,6 +3,7 @@ package fr.mysticraft.mystimod.item;
 import fr.mysticraft.mystimod.MystiMod;
 import fr.mysticraft.mystimod.entity.ModEntities;
 import fr.mysticraft.mystimod.item.customItems.ModFood;
+import fr.mysticraft.mystimod.item.customItems.NinjaStickItem;
 import fr.mysticraft.mystimod.item.customItems.RocketWandItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.common.ForgeSpawnEggItem;
@@ -58,6 +59,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> ROCKET_WAND = ITEMS.register("rocket_wand",
             () -> new RocketWandItem(new Item.Properties().defaultDurability(5)));
+    public static final RegistryObject<Item> NINJA_STICK = ITEMS.register("ninja_stick",
+            () -> new NinjaStickItem(new Item.Properties().defaultDurability(10)));
 
     public static void register(IEventBus e){
         ITEMS.register(e);

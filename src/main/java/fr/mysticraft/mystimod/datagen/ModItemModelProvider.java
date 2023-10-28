@@ -45,7 +45,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.OBSIDIAN_STICK);
         simpleItem(ModItems.ROCKET_WAND);
         simpleItem(ModItems.RHINO_THING);
-
+        simpleItem(ModItems.NINJA_STICK);
         simpleItem(ModItems.MYSTIQUARTZ);
 
         trimmedArmorItem(ModItems.MYSTIQUARTZ_HELMET);

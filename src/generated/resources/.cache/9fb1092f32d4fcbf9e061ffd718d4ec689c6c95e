@@ -1,4 +1,4 @@
-// 1.20.1	2023-10-28T12:20:12.22988	Recipes
+// 1.20.1	2023-10-28T14:13:25.2632713	Recipes
 7d3d668d4a14aa9ab3391227c9a9d8f61d154e6a data/mystimod/advancements/recipes/misc/diamond_apple.json
 c8417c56c624ba9d7385bdedc202e9d428750ecb data/mystimod/advancements/recipes/misc/diamond_nugget.json
 4b6bc7ae75fc2cdd074f1cc2c060c42213861130 data/mystimod/advancements/recipes/misc/mystiquartz.json
@@ -9,6 +9,7 @@ cee0574b0f39fa614934a270cc46688eaac676c2 data/mystimod/advancements/recipes/misc
 1e03e45f8c7df8dec735a03786016a96064a59c9 data/mystimod/advancements/recipes/misc/mystiquartz_leggings.json
 8a6fad056428cc93e57dfd912d4fb1775e0bfc19 data/mystimod/advancements/recipes/misc/mystiquartz_pickaxe.json
 b8ce8e86f88c35db8919d0517732eb3308e6f8b9 data/mystimod/advancements/recipes/misc/mystiquartz_sword.json
+495696cf5915f8e13337e0c2f25345455c616bb1 data/mystimod/advancements/recipes/misc/ninja_stick.json
 1e709e5ee2866c8eb940e5ddbee49be73010d56c data/mystimod/advancements/recipes/misc/obsidian_stick.json
 597bafe110c70352660c40a08124dc13d405ce8f data/mystimod/advancements/recipes/misc/rhino_reinforced_obsidian.json
 a9aab38cd9ac88b26e59084deae2e148c91ac8a5 data/mystimod/advancements/recipes/misc/rocket_wand.json
@@ -22,6 +23,7 @@ c40872351ed5910509f18c90749680ac7851df71 data/mystimod/recipes/mystiquartz_block
 ced50f1239b72620a1166d9df1351b0723e40420 data/mystimod/recipes/mystiquartz_leggings.json
 6dde3c248e04db94c235965619f139f54aff4201 data/mystimod/recipes/mystiquartz_pickaxe.json
 adc8e31e9a0990a3c63ee7312302ef925085c5fe data/mystimod/recipes/mystiquartz_sword.json
+21ddcd8ff98b912bb93c136c36f3a2db7ac1b9f0 data/mystimod/recipes/ninja_stick.json
 f86efe55238319b4e651da3ba4574b42ee2f75b9 data/mystimod/recipes/obsidian_stick.json
 f0e278bfe4eb001bcde912475e1db6d87de6b59c data/mystimod/recipes/rhino_reinforced_obsidian.json
 bd6c45d93282db466f838ae949f3ad37ae673c99 data/mystimod/recipes/rocket_wand.json

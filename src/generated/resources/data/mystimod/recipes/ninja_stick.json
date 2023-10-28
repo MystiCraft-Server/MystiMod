@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    "S": {
+      "item": "mystimod:obsidian_stick"
+    }
+  },
+  "pattern": [
+    " P ",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "item": "mystimod:ninja_stick"
+  },
+  "show_notification": true
+}

@@ -26,7 +26,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.DIAMOND_APPLE.get());
                         pOutput.accept(ModItems.RHINO_SPAWN_EGG.get());
                         pOutput.accept(ModItems.RHINO_THING.get());
-
+                        pOutput.accept(ModItems.NINJA_STICK.get());
 
 
                         pOutput.accept(ModItems.MYSTIQUARTZ_SWORD.get());

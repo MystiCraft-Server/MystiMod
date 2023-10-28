@@ -4,6 +4,8 @@ import fr.mysticraft.mystimod.block.ModBlocks;
 import fr.mysticraft.mystimod.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
@@ -55,6 +57,16 @@ public class ModRecipieProvider extends RecipeProvider implements IConditionBuil
                 .unlockedBy(getHasName(ModItems.OBSIDIAN_STICK.get()), has(ModItems.OBSIDIAN_STICK.get()))
                 .unlockedBy(getHasName(Items.DIAMOND), has(Items.DIAMOND))
                 .unlockedBy(getHasName(Items.FEATHER), has(Items.FEATHER))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.NINJA_STICK.get())
+                .pattern(" P ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('P', Items.FERMENTED_SPIDER_EYE)
+                .define('S', ModItems.OBSIDIAN_STICK.get())
+                .unlockedBy(getHasName(ModItems.OBSIDIAN_STICK.get()), has(ModItems.OBSIDIAN_STICK.get()))
+                .unlockedBy(getHasName(Items.FERMENTED_SPIDER_EYE), has(Items.FERMENTED_SPIDER_EYE))
                 .save(pWriter);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.RHINO_REINFORCED_OBSIDIAN.get())
