@@ -41,6 +41,8 @@ public class ModCreativeModTabs {
 
                         pOutput.accept(ModBlocks.MYSTIQUARTZ_ORE.get());
                         pOutput.accept(ModBlocks.MYSTIQUARTZ_BLOCK.get());
+                        pOutput.accept(ModBlocks.RHINO_REINFORCED_OBSIDIAN.get());
+
                     })
                     .build());
 

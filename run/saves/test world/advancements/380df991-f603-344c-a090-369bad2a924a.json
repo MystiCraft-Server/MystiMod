@@ -568,5 +568,17 @@
     },
     "done": true
   },
+  "mystimod:recipes/misc/rhino_reinforced_obsidian": {
+    "criteria": {
+      "has_rhino_thing": "2023-10-28 12:21:20 +0200"
+    },
+    "done": true
+  },
+  "mystimod:recipes/misc/obsidian_stick": {
+    "criteria": {
+      "has_obsidian": "2023-10-28 12:23:10 +0200"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

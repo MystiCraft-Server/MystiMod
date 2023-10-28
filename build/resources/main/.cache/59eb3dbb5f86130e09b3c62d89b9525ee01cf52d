@@ -1,3 +1,4 @@
-// 1.20.1	2023-10-27T14:21:09.978566	Loot Tables
+// 1.20.1	2023-10-28T12:20:12.227127	Loot Tables
 cf045f0fcad92bb829d9a286dbea34de8324e529 data/mystimod/loot_tables/blocks/mystiquartz_block.json
 59366fab2b8124c9e60735cf8ecbdf87ac9be263 data/mystimod/loot_tables/blocks/mystiquartz_ore.json
+1dbcf2b76ce5cfc08a05efc1bf4fa4254e37912b data/mystimod/loot_tables/blocks/rhino_reinforced_obsidian.json

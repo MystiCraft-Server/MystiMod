@@ -26,6 +26,8 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> MYSTIQUARTZ_ORE = registerBlock("mystiquartz_ore",
             () -> new MystiQuartzBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE)));
+    public static final RegistryObject<Block> RHINO_REINFORCED_OBSIDIAN = registerBlock("rhino_reinforced_obsidian",
+            () -> new MystiQuartzBlock(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN).destroyTime(75F).explosionResistance(1800.F)));
     public static final RegistryObject<Block> MYSTIQUARTZ_BLOCK = registerBlock("mystiquartz_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK)));
 
