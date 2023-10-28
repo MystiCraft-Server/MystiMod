@@ -31,6 +31,7 @@ public class ModItems {
     public static final RegistryObject<Item> MYSTIQUARTZ = ITEMS.register("mystiquartz",
             () -> new Item(new Item.Properties()));
 
+
     public static final RegistryObject<Item> DIAMOND_APPLE = ITEMS.register("diamond_apple",
             () -> new Item(new Item.Properties().food(ModFood.DIAMOND_APPLE)));
 

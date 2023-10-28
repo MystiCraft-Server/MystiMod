@@ -1,31 +1,31 @@
-[27Oct2023 21:52:02.831] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, /home/gabriel/.gradle/caches/forge_gradle/assets, --gameDir, ., --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, mystimod, --all, --output, /home/gabriel/Documents/GitHub/MystiMod/src/generated/resources, --existing, /home/gabriel/Documents/GitHub/MystiMod/src/main/resources]
-[27Oct2023 21:52:02.834] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.8.1 by Private Build; OS Linux arch amd64 version 5.15.0-76-generic
-[27Oct2023 21:52:02.931] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[27Oct2023 21:52:03.000] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/gabriel/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23116!/ Service=ModLauncher Env=CLIENT
-[27Oct2023 21:52:03.314] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/gabriel/.gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.20.1-47.2.0/7f9181f85acc66547685a72020713fc8cbde98/javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[27Oct2023 21:52:03.316] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/gabriel/.gradle/caches/modules-2/files-2.1/net.minecraftforge/lowcodelanguage/1.20.1-47.2.0/7872f5205685fdd26fae39b1be79b0e60ca5b7bd/lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[27Oct2023 21:52:03.319] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/gabriel/.gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.20.1-47.2.0/d501d161cabed08b3c139a2c6217b02a39f3c3e9/mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[27Oct2023 21:52:03.323] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/gabriel/.gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.20.1-47.2.0/ffd3c6debac0a388c9e33ac43c9f5eafb91cb466/fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
-[27Oct2023 21:52:03.389] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[27Oct2023 21:52:04.729] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, /home/gabriel/.gradle/caches/forge_gradle/assets, --assetIndex, 5, --mod, mystimod, --all, --output, /home/gabriel/Documents/GitHub/MystiMod/src/generated/resources, --existing, /home/gabriel/Documents/GitHub/MystiMod/src/main/resources]
-[27Oct2023 21:52:05.076] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [mystimod]
-[27Oct2023 21:52:09.343] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
-[27Oct2023 21:52:09.347] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
-[27Oct2023 21:52:09.868] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/gabriel/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.0_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.2.0_mapped_parchment_2023.06.26-1.20.1-recomp.jar%23181!/assets/.mcassetsroot' uses unexpected schema
-[27Oct2023 21:52:09.869] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/gabriel/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.0_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.2.0_mapped_parchment_2023.06.26-1.20.1-recomp.jar%23181!/data/.mcassetsroot' uses unexpected schema
-[27Oct2023 21:52:09.880] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Ignored non-lowercase namespace: .DS_Store in /home/gabriel/Documents/GitHub/MystiMod/src/main/resources
-[27Oct2023 21:52:09.889] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Ignored non-lowercase namespace: .DS_Store in /home/gabriel/Documents/GitHub/MystiMod/src/main/resources
-[27Oct2023 21:52:09.983] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[27Oct2023 21:52:10.026] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 42 ms
-[27Oct2023 21:52:10.026] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[27Oct2023 21:52:10.059] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 32 ms
-[27Oct2023 21:52:10.059] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: mystimod
-[27Oct2023 21:52:10.168] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: mystimod finished after 109 ms
-[27Oct2023 21:52:10.168] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: mystimod
-[27Oct2023 21:52:10.228] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: mystimod finished after 59 ms
-[27Oct2023 21:52:10.228] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id mystimod
-[27Oct2023 21:52:10.370] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id mystimod finished after 142 ms
-[27Oct2023 21:52:10.371] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id mystimod
-[27Oct2023 21:52:10.372] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id mystimod finished after 1 ms
-[27Oct2023 21:52:10.372] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 388 ms
-[27Oct2023 21:52:10.377] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 88, old count: 87, new count: 89, removed stale: 0, written: 1
+[28oct.2023 02:15:32.754] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\gzoli\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, mystimod, --all, --output, C:\Users\gzoli\Documents\GitHub\MystiMod\src\generated\resources, --existing, C:\Users\gzoli\Documents\GitHub\MystiMod\src\main\resources]
+[28oct.2023 02:15:32.754] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.8.1 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[28oct.2023 02:15:32.910] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[28oct.2023 02:15:32.988] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/gzoli/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[28oct.2023 02:15:33.354] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\gzoli\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.2.0\7f9181f85acc66547685a72020713fc8cbde98\javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[28oct.2023 02:15:33.354] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\gzoli\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.2.0\7872f5205685fdd26fae39b1be79b0e60ca5b7bd\lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[28oct.2023 02:15:33.369] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\gzoli\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.2.0\d501d161cabed08b3c139a2c6217b02a39f3c3e9\mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[28oct.2023 02:15:33.369] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\gzoli\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.2.0\ffd3c6debac0a388c9e33ac43c9f5eafb91cb466\fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
+[28oct.2023 02:15:33.447] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[28oct.2023 02:15:34.992] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\gzoli\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, mystimod, --all, --output, C:\Users\gzoli\Documents\GitHub\MystiMod\src\generated\resources, --existing, C:\Users\gzoli\Documents\GitHub\MystiMod\src\main\resources]
+[28oct.2023 02:15:35.440] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [mystimod]
+[28oct.2023 02:15:40.638] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
+[28oct.2023 02:15:40.653] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
+[28oct.2023 02:15:41.454] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/gzoli/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.0_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.2.0_mapped_parchment_2023.06.26-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[28oct.2023 02:15:41.454] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/gzoli/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.0_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.2.0_mapped_parchment_2023.06.26-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[28oct.2023 02:15:41.465] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Ignored non-lowercase namespace: .DS_Store in C:\Users\gzoli\Documents\GitHub\MystiMod\src\main\resources
+[28oct.2023 02:15:41.465] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Ignored non-lowercase namespace: .DS_Store in C:\Users\gzoli\Documents\GitHub\MystiMod\src\main\resources
+[28oct.2023 02:15:41.622] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[28oct.2023 02:15:41.690] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 72 ms
+[28oct.2023 02:15:41.690] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[28oct.2023 02:15:41.715] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 33 ms
+[28oct.2023 02:15:41.715] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: mystimod
+[28oct.2023 02:15:41.870] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: mystimod finished after 146 ms
+[28oct.2023 02:15:41.870] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: mystimod
+[28oct.2023 02:15:41.906] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: mystimod finished after 44 ms
+[28oct.2023 02:15:41.906] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id mystimod
+[28oct.2023 02:15:41.922] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id mystimod finished after 14 ms
+[28oct.2023 02:15:41.922] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id mystimod
+[28oct.2023 02:15:41.937] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id mystimod finished after 1 ms
+[28oct.2023 02:15:41.937] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 316 ms
+[28oct.2023 02:15:41.953] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 89, old count: 88, new count: 90, removed stale: 0, written: 1
