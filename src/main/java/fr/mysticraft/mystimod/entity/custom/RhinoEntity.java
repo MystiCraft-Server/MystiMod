@@ -1,8 +1,6 @@
 package fr.mysticraft.mystimod.entity.custom;
 
-import fr.mysticraft.mystimod.MystiMod;
 import fr.mysticraft.mystimod.entity.ModEntities;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
@@ -11,7 +9,6 @@ import net.minecraft.world.entity.AgeableMob;
 import net.minecraft.world.entity.AnimationState;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Pose;
-import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.goal.*;
@@ -66,12 +63,12 @@ public class RhinoEntity extends Animal {
     protected void registerGoals() {
         this.goalSelector.addGoal(0, new FloatGoal(this));
         this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1D, true));
-        this.goalSelector.addGoal(1, new BreedGoal(this, 1D));
-        this.goalSelector.addGoal(2, new TemptGoal(this, 1.05D, Ingredient.of(Items.WHEAT), false));
-        this.goalSelector.addGoal(3, new FollowParentGoal(this, 1.1D));
-        this.goalSelector.addGoal(4, new WaterAvoidingRandomStrollGoal(this, 1.1D));
-        this.goalSelector.addGoal(5, new LookAtPlayerGoal(this, Player.class, 3f));
-        this.goalSelector.addGoal(6, new RandomLookAroundGoal(this));
+        this.goalSelector.addGoal(2, new BreedGoal(this, 1D));
+        this.goalSelector.addGoal(3, new TemptGoal(this, 1.05D, Ingredient.of(Items.WHEAT), false));
+        this.goalSelector.addGoal(4, new FollowParentGoal(this, 1.1D));
+        this.goalSelector.addGoal(5, new WaterAvoidingRandomStrollGoal(this, 1.1D));
+        this.goalSelector.addGoal(6, new LookAtPlayerGoal(this, Player.class, 3f));
+        this.goalSelector.addGoal(7, new RandomLookAroundGoal(this));
 
         this.targetSelector.addGoal(1, new HurtByTargetGoal(this));
     }
