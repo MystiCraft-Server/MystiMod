@@ -75,12 +75,12 @@ public class RhinoEntity extends Animal {
 
     public static AttributeSupplier.Builder createAttributes(){
         return Animal.createLivingAttributes()
-                .add(Attributes.MAX_HEALTH, 20D)
+                .add(Attributes.MAX_HEALTH, 40D)
                 .add(Attributes.FOLLOW_RANGE, 24D)
-                .add(Attributes.MOVEMENT_SPEED, 0.3D)
+                .add(Attributes.MOVEMENT_SPEED, 0.6D)
                 .add(Attributes.ARMOR_TOUGHNESS, 0.1f)
-                .add(Attributes.ATTACK_KNOCKBACK, 0.5f)
-                .add(Attributes.ATTACK_DAMAGE, 9f);
+                .add(Attributes.ATTACK_KNOCKBACK, 1f)
+                .add(Attributes.ATTACK_DAMAGE, 10f);
     }
 
     @Nullable
