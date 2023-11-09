@@ -1,7 +1,7 @@
-Java Launcher: C:\Program Files\Eclipse Adoptium\jdk-17.0.8.101-hotspot\bin\java.exe
-Arguments: '--inJar, C:\Users\gzoli\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.2.0\forge-1.20.1-47.2.0-injected.jar, --outJar, C:\Users\gzoli\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.2.0_mapped_parchment_2023.06.26-1.20.1\forge-1.20.1-47.2.0_mapped_parchment_2023.06.26-1.20.1.jar, --logFile, accesstransform.log, --atFile, C:\Users\gzoli\Documents\GitHub\MystiMod\build\_atJar_4\parent_at.cfg'
+Java Launcher: /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/bin/java
+Arguments: '--inJar, /Users/gabriel/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.0/forge-1.20.1-47.2.0-injected.jar, --outJar, /Users/gabriel/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.0_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.2.0_mapped_parchment_2023.06.26-1.20.1.jar, --logFile, accesstransform.log, --atFile, /Users/gabriel/Documents/GitHub/MystiMod/build/_atJar_4/parent_at.cfg'
 Classpath:
- - C:\Users\gzoli\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
-Working directory: C:\Users\gzoli\Documents\GitHub\MystiMod\build\_atJar_4
+ - /Users/gabriel/.gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/accesstransformers/8.0.7/accesstransformers-8.0.7-fatjar.jar
+Working directory: /Users/gabriel/Documents/GitHub/MystiMod/build/_atJar_4
 Main class: net.minecraftforge.accesstransformer.TransformerProcessor
 ====================================

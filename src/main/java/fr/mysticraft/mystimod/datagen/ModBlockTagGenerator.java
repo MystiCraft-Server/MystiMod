@@ -21,9 +21,13 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
     protected void addTags(HolderLookup.Provider pProvider) {
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL).add(ModBlocks.MYSTIQUARTZ_BLOCK.get(), ModBlocks.MYSTIQUARTZ_ORE.get());
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL).add(ModBlocks.RHINO_REINFORCED_OBSIDIAN.get());
+        this.tag(BlockTags.NEEDS_DIAMOND_TOOL).add(ModBlocks.GREENSCREEN_BLOCK.get());
+
 
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.MYSTIQUARTZ_BLOCK.get(), ModBlocks.MYSTIQUARTZ_ORE.get());
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.RHINO_REINFORCED_OBSIDIAN.get());
+        this.tag(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.GREENSCREEN_BLOCK.get());
+
 
     }
 }

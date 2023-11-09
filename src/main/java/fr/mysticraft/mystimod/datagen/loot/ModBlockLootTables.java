@@ -21,6 +21,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.MYSTIQUARTZ_BLOCK.get());
         this.dropSelf(ModBlocks.MYSTIQUARTZ_ORE.get());
         this.dropSelf(ModBlocks.RHINO_REINFORCED_OBSIDIAN.get());
+        this.dropSelf(ModBlocks.GREENSCREEN_BLOCK.get());
+
 
 
     }

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mystimod:block/greenscreen_block"
+    }
+  }
+}

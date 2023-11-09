@@ -30,6 +30,8 @@ public class ModBlocks {
             () -> new MystiQuartzBlock(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN).destroyTime(75F).explosionResistance(1800.F)));
     public static final RegistryObject<Block> MYSTIQUARTZ_BLOCK = registerBlock("mystiquartz_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK)));
+    public static final RegistryObject<Block> GREENSCREEN_BLOCK = registerBlock("greenscreen_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

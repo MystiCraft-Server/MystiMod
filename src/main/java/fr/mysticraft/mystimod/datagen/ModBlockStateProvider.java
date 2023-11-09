@@ -17,6 +17,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.MYSTIQUARTZ_BLOCK);
         blockWithItem(ModBlocks.RHINO_REINFORCED_OBSIDIAN);
+        blockWithItem(ModBlocks.GREENSCREEN_BLOCK);
+
 
 
         blockWithItem(ModBlocks.MYSTIQUARTZ_ORE);

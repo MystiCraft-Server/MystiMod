@@ -79,6 +79,16 @@ public class ModRecipieProvider extends RecipeProvider implements IConditionBuil
                 .unlockedBy(getHasName(Items.OBSIDIAN), has(Items.OBSIDIAN))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.GREENSCREEN_BLOCK.get(), 5)
+                .pattern("GGG")
+                .pattern("GRG")
+                .pattern("GGG")
+                .define('R', ModBlocks.RHINO_REINFORCED_OBSIDIAN.get())
+                .define('G', Items.GREEN_DYE)
+                .unlockedBy(getHasName(ModBlocks.RHINO_REINFORCED_OBSIDIAN.get()), has(ModBlocks.RHINO_REINFORCED_OBSIDIAN.get()))
+                .unlockedBy(getHasName(Items.GREEN_DYE), has(Items.GREEN_DYE))
+                .save(pWriter);
+
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.MYSTIQUARTZ_SWORD.get())
                 .pattern(" M ")
                 .pattern(" M ")

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:green_dye"
+    },
+    "R": {
+      "item": "mystimod:rhino_reinforced_obsidian"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "GRG",
+    "GGG"
+  ],
+  "result": {
+    "count": 5,
+    "item": "mystimod:greenscreen_block"
+  },
+  "show_notification": true
+}

@@ -62,11 +62,11 @@ public class RhinoEntity extends Animal {
     @Override
     protected void registerGoals() {
         this.goalSelector.addGoal(0, new FloatGoal(this));
-        this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1D, true));
-        this.goalSelector.addGoal(2, new BreedGoal(this, 1D));
-        this.goalSelector.addGoal(3, new TemptGoal(this, 1.05D, Ingredient.of(Items.WHEAT), false));
-        this.goalSelector.addGoal(4, new FollowParentGoal(this, 1.1D));
-        this.goalSelector.addGoal(5, new WaterAvoidingRandomStrollGoal(this, 1.1D));
+        this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 0.3D, true));
+        this.goalSelector.addGoal(2, new BreedGoal(this, 0.3D));
+        this.goalSelector.addGoal(3, new TemptGoal(this, 0.3D, Ingredient.of(Items.WHEAT), false));
+        this.goalSelector.addGoal(4, new FollowParentGoal(this, 0.3D));
+        this.goalSelector.addGoal(5, new WaterAvoidingRandomStrollGoal(this, 0.3D));
         this.goalSelector.addGoal(6, new LookAtPlayerGoal(this, Player.class, 3f));
         this.goalSelector.addGoal(7, new RandomLookAroundGoal(this));
 
@@ -77,10 +77,10 @@ public class RhinoEntity extends Animal {
         return Animal.createLivingAttributes()
                 .add(Attributes.MAX_HEALTH, 20D)
                 .add(Attributes.FOLLOW_RANGE, 24D)
-                .add(Attributes.MOVEMENT_SPEED, 0.8D)
+                .add(Attributes.MOVEMENT_SPEED, 0.3D)
                 .add(Attributes.ARMOR_TOUGHNESS, 0.1f)
                 .add(Attributes.ATTACK_KNOCKBACK, 0.5f)
-                .add(Attributes.ATTACK_DAMAGE, 2f);
+                .add(Attributes.ATTACK_DAMAGE, 9f);
     }
 
     @Nullable
